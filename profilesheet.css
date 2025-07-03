@@ -1,0 +1,59 @@
+body{
+    color :beige;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+}
+
+h2{
+    color: brown;
+}
+
+
+p{
+    color: black;
+    padding: 4px 8px;
+}
+
+.face{
+    width:100px;
+}
+
+table{
+    margin: 0 auto;
+    width: 50%; 
+    height: 30px;
+}
+
+caption{
+    color: black;
+    text-align: center;
+    width: 100%;
+    line-height: 3.0;
+}
+
+thead{
+    color:black;
+    width: 30%;
+}
+
+tbody{
+    color: black;
+    text-align: center;
+    width: 80%;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+}
+
+th,td{
+    padding: 4px 8px;
+}
+
+.button{
+    size: 100px;
+}

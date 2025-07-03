@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+	    <meta charset="UTF-8">
+	    <title>おさらい プロフィール画面</title>
+	    <link rel="stylesheet" href="profilesheet.css">
+    </head>
+    <body>
+        <h1>自己紹介ページへようこそ</h1>
+        <h2>Profile</h2>
+            <p>【名前】</p>
+                <p>梅田ゆかり</p>
+                    <img class="face" src="face.png"> 
+            <p>【出身】</p>
+                <p>東京</p>
+            <p>【好きなこと】</p>
+                <p>ディズニー</p>
+                    <a href="https://www.tokyodisneyresort.jp/">東京ディズニーリゾートはこちら</a>
+        <table disney_charactor_rank="1">
+            <caption>★好きなディズニーキャラクターランキング★</caption>
+                <thead>
+                    <tr>
+                        <th>順位</th>
+                        <th>キャラクター名</th>
+                    </tr>   
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1位</th>
+                        <td>ジーニー</td>
+                    </tr>
+                    <tr>
+                        <th>2位</th>
+                        <td>チャンドゥ</td>
+                    </tr>
+                    <tr>
+                        <th>3位</th>
+                        <td>ミニー</td>
+                    </tr>   
+                </tbody>     
+        </table>                    
+        <form action="message" method="post">
+            <h2>問い合わせフォーム</h2>
+                <p>
+                    名前<input type="text" name="name" size="40">
+                </p>
+                <p>
+                    メール<input type="email" name="email" size="60">
+                </p>
+                <p>
+                    問い合わせ内容<textarea></textarea>
+                </p>
+                <p>
+                    <div class="button"><input type="submit" value="送信"></div>
+                </p>
+        </form>
+
+
+
+
+
+
+
+    </body>
+</html>
+
